@@ -5,7 +5,7 @@ import Footer from "../Components/Shared/Footer";
 
 const Main = () => {
   return (
-    <div>
+    <div className="text-white bg-gradient-to-r from-slate-700 to-slate-900">
       <Header />
       <Outlet />
       <Footer />
