@@ -17,9 +17,9 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="flex">
-        <h1>Discover a New Era of Crypto Currency</h1>
-        <div>
+      <div className="flex flex-wrap my-5">
+        <h1 className="text-3xl font-bold w-1/2">Discover a New Era of Crypto Currency</h1>
+        <div className="w-1/2">
           <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -32,11 +32,11 @@ const Hero = () => {
       <Swiper
         className="mySwiper"
         slidesPerView={3}
-        spaceBetween={30}
+        spaceBetween={10}
         loop={true}
         // centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 2000,
           disableOnInteraction: false,
         }}
         // pagination={{
